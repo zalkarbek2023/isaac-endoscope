@@ -1,0 +1,66 @@
+{
+ "run": "sim_r3",
+ "seed": 2,
+ "start_offset": 0.02,
+ "steps": 1441,
+ "seconds": 48.03,
+ "finds": [
+  {
+   "t": 11.03,
+   "lesion": "004-014_3",
+   "class": "AD",
+   "size_mm": 6,
+   "dist_mm": 20.7,
+   "conf": 0.823
+  },
+  {
+   "t": 22.0,
+   "lesion": "003-013_2",
+   "class": "SSL",
+   "size_mm": 6,
+   "dist_mm": 18.7,
+   "conf": 0.767
+  },
+  {
+   "t": 44.07,
+   "lesion": "003-003_4",
+   "class": "HP",
+   "size_mm": 9,
+   "dist_mm": 16.0,
+   "conf": 0.855
+  }
+ ],
+ "found_ids": [
+  "003-003_4",
+  "003-013_2",
+  "004-014_3"
+ ],
+ "lesions": [
+  "004-014_3",
+  "003-013_2",
+  "003-003_4"
+ ],
+ "wall_hits": 222,
+ "false_alarms": 0,
+ "false_alarm_list": [],
+ "control": false,
+ "alarms": 3,
+ "false_alarm_events": 0,
+ "alarm_list": [
+  {
+   "t": 0.87,
+   "true": true,
+   "conf": 0.515
+  },
+  {
+   "t": 13.6,
+   "true": true,
+   "conf": 0.708
+  },
+  {
+   "t": 31.6,
+   "true": true,
+   "conf": 0.588
+  }
+ ]
+}
